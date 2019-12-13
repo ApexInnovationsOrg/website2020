@@ -1,0 +1,168 @@
+.examNoticePage {
+	background-color:white;
+	padding: 2.5em 0em;
+	min-height: 550px;
+	
+	.logo {
+		border-bottom:3px #990000 solid;
+		img{
+			width:100%;
+			padding:0 15px;
+			max-width:510px;
+			height:auto;
+		}
+	}
+	
+	.errorText { 
+		font-size: 1.6em;
+		margin-top: 2em;
+		margin-left: 3em;
+	}
+
+	.selectionDisplay {
+		display:flex;
+		justify-content: space-around; 
+		max-width:800px;
+		margin:0 auto;
+		flex-wrap: wrap-reverse;
+	}
+	
+	#patientGroupSelection{
+		background-color:#F7F7F7;
+		width:125px;
+		margin: 0 auto;
+		border-radius: 1em;
+		box-shadow: 5px 5px grey;
+		text-align: left;
+		font-size:16px;
+		display: flex;
+		
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding:15px 0 0 0;
+		
+	}
+	#patientGroupSelection > div{
+		padding-bottom: 0.7em;
+		width:80px;
+
+	}
+	.testedGreen, .testedGreenResult *{
+		color:green;
+		font-weight:bold; 
+	}
+
+	#nihResultsTable{
+		min-width:300px;
+		border-collapse: collapse;
+		border-radius: 1em;
+		overflow: hidden;
+		box-shadow: 5px 5px grey;
+		font-size:1.5em;
+	}
+	#nihResultsTable thead{
+		background-color:#AD332D;
+		color:white;
+		tr{
+			th{
+				background:inherit;
+				font-weight:bold;
+			}
+		}
+	}
+	#nihResultsTable tbody{
+		background-color:#F7F7F7;
+	}
+	#nihResultsTable tr{
+		line-height:35px;
+	}
+	#nihResultsTable td{
+		text-align:center;
+		border: 2px black solid;
+	}
+	#nihResultsTable th{
+		text-align:center;
+		border: 2px white solid;
+	}
+	#nihResultsTable th:first-child, #nihResultsTable td:first-child{
+		border-left:none;
+	}
+	#nihResultsTable th:last-child, #nihResultsTable td:last-child{
+		border-right:none;
+	}
+	#nihResultsTable tr:first-child > th{
+		border-top:none;
+	}
+	#nihResultsTable tr:last-child > td{
+		border-bottom:none;
+	}
+
+	#groupSelectionContainer {
+		text-align: center;
+	}
+	#startNIHPatientExam {
+		width: 90px;
+		height: 40px;
+		color: white;
+		font-weight: bold;
+		background-color: #AD332D;
+		border-radius:0.5em;
+		box-shadow: 0.5px 0.5px grey;
+		letter-spacing: 1px;
+		font-size:1.7em;
+	}
+	input[type=radio   ]{
+		cursor:pointer;								
+	}
+	input[type=radio   ]:not(old){
+		width: 2em;
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+		opacity: 0;
+	}
+	input[type=radio   ]:not(old) + label{
+		display: inline-block;
+		margin-left: -2em;
+		line-height: 1.5em;
+		cursor:pointer;
+		height:25px;
+	}
+	input[type=radio   ]:not(old) + label > span{
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		margin: 0.25em 0.5em 0.25em 0.25em;
+		border: 0.15em solid #606060;
+		border-radius: 100%;
+		background: #F7F7F7;
+		vertical-align: bottom;
+	}
+	input[type=radio]:not(old):checked +  label > span > span{
+		display: block;
+		width: 8px;
+		height: 8px;
+		margin: 2px;
+		border-radius: 100%;
+		background: #AD332D;
+	}
+	input[type=radio   ]:not(old):checked + label > span{								
+		border: 2px solid #AD332D;
+	}
+	#patientNotes {
+		margin:1.5em 0px 0px 0.5em;
+		max-width:300px;
+		font-size:0.75em;
+		display:block;
+		font-size:1.4em;
+		line-height:1.4em;
+		word-wrap:break-word;
+		
+		p:before{
+			content:"•"; 
+			position:absolute;
+			margin-left:-10px;
+		}
+	}
+}

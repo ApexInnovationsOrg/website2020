@@ -1,0 +1,687 @@
+.Reports {
+	$apexRed: #A3322B;
+	$apexBlue: #4679B2;
+	$successGreen: #329f0b;
+
+	#leftNav {
+		display: none !important;
+	}
+
+	#contentPanel {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.row {
+		clear: both;
+	}
+	.section {
+		padding: 1.5rem 0;
+		clear: both;
+		margin: 1em auto;
+		display: block;
+		font-size: 2.3rem;
+		position: relative;
+		transform-origin: center top;
+		opacity: 1;
+		border-bottom: 1px solid rgba(black, 0.1);
+
+		transition: height 250ms ease-out, opacity 250ms ease-out, transform 250ms ease-out, padding 250ms ease-out, margin 250ms ease-out;
+
+		.section {
+			border-bottom: none;
+		}
+	}
+
+	.section.hidden {
+		display: block !important;
+		height: 0;
+		opacity: 0;
+		transform: scaleY(0);
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	p.success {
+		color: green;
+	}
+
+	p.failure {
+		color: darkred;
+	}
+
+	button {
+		font-size: 0.8em;
+	}
+
+	button.active {
+		background-color: $apexRed !important;
+		color: white !important;
+	}
+
+	button + button {
+		margin-left: 1em;
+	}
+
+	i.fa-spin {
+		color: grey;
+	}
+	// button:disabled > i.fa-spin {
+	// 	color: white;
+	// }
+	.clickable {
+		cursor: pointer;
+	}
+
+	p.error {
+		color: $apexRed !important;
+	}
+
+	.headerCollapseExpandButton {
+		margin: 0.5em;
+	}
+
+	label {
+		font-size: 0.75em;
+		margin: 0 0.4em;
+		color: #666666;
+	}
+
+	input {
+		border-radius: 4px;
+		border: 1px solid lightgrey;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+		padding: 0.3em;
+		box-sizing: border-box;
+		font-size: 0.8em;
+		line-height: normal;
+	}
+
+	input::-webkit-input-placeholder {
+		/* Chrome/Opera/Safari */
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	input::-moz-placeholder {
+		/* Firefox 19+ */
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	input:-ms-input-placeholder {
+		/* IE 10+ */
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	input:-moz-placeholder {
+		/* Firefox 18- */
+		padding: 0;
+		margin: 0;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	.ui-datepicker-trigger {
+		position: absolute;
+		transform: translate(-1.5em, 0.5em);
+		color: $apexRed;
+		cursor: pointer;
+		background: transparent;
+		border: none;
+		padding: 0;
+	}
+
+	.dropdown {
+		text-align: center;
+		display: inline-block;
+
+		.btn.active * {
+			color: white !important;
+		}
+
+		.dropdown-menu {
+			max-height: 400px;
+			min-width: 80px;
+			max-width: 200%;
+			overflow-y: auto;
+			font-size: 0.8em;
+
+			li {
+				cursor: pointer;
+				max-width: 100%;
+				overflow: hidden;
+
+				a {
+					max-width: 100%;
+					overflow: hidden;
+					padding: 0.2em 0.5em;
+					text-overflow: ellipsis;
+
+					p {
+						font-size: 0.9em;
+						padding-bottom: 0.3em;
+					}
+				}
+			}
+
+			li:not(:last-child) {
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			input {
+				width: 95%;
+				margin: 0 2.5%;
+				box-sizing: border-box;
+			}
+		}
+	}
+
+	.popover {
+		font-size: 1.2em;
+	}
+
+	.dataTables_wrapper {
+		overflow-x: auto;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		
+		.dataTables_filter {
+			float: none;
+		}
+	}
+
+	table, table.dataTable {
+		margin: 2rem auto;
+		width: 100% !important;
+		cursor: default;
+	}
+
+	table:not(.dataTable) {
+		th .fa.fa-sort {
+			display: none !important;
+		}
+	}
+
+	h3 {
+		margin: 0;
+	}
+
+	tr:nth-child(even) {
+		background-color: #F0F0F0;
+	}
+
+	tr {
+		max-width: 100%;
+
+		th {
+			background: #444 !important;
+			padding: 0.2em;
+			text-align: center;
+
+			span:visible {
+				display: inline-block !important;
+			}
+
+			i.fa-sort {
+				font-size: 0.7em;
+			}
+		}
+
+		td {
+			padding: 0.2em 0.8em;
+			font-size: 0.95em;
+			vertical-align: middle;
+
+			label {
+				margin: 0.2em 0 0;
+				display: block;
+			}
+		}
+
+		td.success {
+			background-color: rgba(50, 159, 11, 0.75);
+			color: black;
+			font-weight: bold;
+		}
+
+		td.failure {
+			background-color: rgba(163, 50, 43, 0.75);
+			color: black;
+			font-weight: bold;
+		}
+
+		td.clickable {
+			color: $apexRed;
+		}
+
+		td.failure.clickable,
+		td.success.clickable {
+			color: black;
+		}
+
+		td.clickable:hover {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+		// text align center any cells that only have an icon in them
+		td > i:first-child:last-child {
+			text-align: center;
+			width: 100%;
+		}
+
+		td:first-child > i:first-child {
+			margin: 0 0.6em 0 0;
+			font-size: 0.8em;
+			color: white;
+			background-color: #aaaaaa;
+			padding: 0.3em;
+			width: 1.8em;
+			border-radius: 3px;
+			text-align: center;
+		}
+
+		td > i:not([class*="text-"]) {
+			color: #444444;
+		}
+
+		td > i:not(:last-child) {
+			margin-right: 0.3em;
+		}
+
+		td.clickable > i.fa-check {
+			color: green;
+		}
+
+		td > .ratingBar {
+			border-left-style: solid;
+			border-left-color: #F8D347;
+			background-color: rgba(0, 0, 0, 0.2);
+			display: block;
+			border-radius: 2px;
+			box-sizing: border-box;
+			width: 100px;
+			height: 20px;
+			margin: 0 auto;
+			position: relative;
+			font-size: 0;
+			color: transparent;
+
+			& {
+				text-align: center;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.popover {
+		font-size: 0.8em;
+		max-width: none;
+	}
+
+	.popover p {
+		line-height: normal;
+	}
+
+	.popover a {
+		color: $apexRed;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 0.9em;
+	}
+
+	.popover a.btn {
+		color: white;
+		background-color: $apexRed;
+	}
+
+	#reportGenerationContainer {
+		width: 100%;
+		transition: opacity 200ms ease-out;
+
+		#reportDomainContainer > *:not(p) {
+			display: inline-block;
+			margin: 1em;
+		}
+
+		.reportDomainButton {
+			font-size: 0.8em;
+			background-color: #dddddd;
+		}
+
+		#reportDomainSelectionContainer > div,
+		#reportSelectionContainer > div {
+			margin: 0 auto;
+			position: relative;
+			width: auto;
+			display: inline-block;
+
+			.dropdown + p {
+				display: inline-block;
+				margin-left: 0.5em;
+				margin-top: 0.5em;
+
+				span {
+					font-weight: bold;
+					color: $apexRed;
+				}
+			}
+
+			.dropdown-toggle {
+				font-size: 0.8em;
+			}
+		}
+
+		#reportParametersContainer {
+
+			.reportParameterContainer {
+				margin: 0.5em 0.5em 1em;
+			}
+		}
+
+		#reportSubmitContainer {
+			#reportSubmitButton {
+				background-color: $apexRed;
+				color: white;
+			}
+		}
+
+		#reportErrorContainer > p {
+			padding-top: 0.5em;
+			color: $apexRed !important;
+		}
+	}
+
+	#reportGenerationContainer:disabled {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+
+	#reportViewContainer {
+		width: 100%;
+
+		*:not(i) {
+			font-family: "Open Sans", sans-serif;
+			font-size: 0.94em;
+		}
+
+		.dropdown {
+			margin: 0 1em;
+		}
+
+		#reportHeadingContainer {
+			> p {
+				display: inline-block;
+				line-height: 1.5;
+				background-color: rgba(237, 237, 237, 1);
+				padding: 0.5em 1em;
+				border-radius: 0.2em;
+				font-size: 1.2em;
+
+				> strong {
+					color: $apexRed;
+				}
+			}
+			// #reportExportContainer_extra {
+			// 	position: absolute;
+			// 	right: 0;
+			// 	display: inline-block;
+			// }
+		}
+
+		#reportViewReportContainer {
+			.tab-content {
+				font-size: 1.1em;
+			}
+
+			.nav > p {
+				float: left;
+				margin: 0;
+				padding: 0;
+				color: #666666;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 0.7em;
+				vertical-align: baseline;
+				line-height: 3;
+			}
+
+			.nav > li {
+				float: right;
+				margin: 0.1em;
+			}
+
+			.nav-pills {
+				padding: 0.7em 0 0.1em;
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			.nav-pills > li:not(.disabled).active > a {
+				background-color: $apexRed;
+			}
+
+			.nav-pills > li.disabled > a {
+				background-color: transparent;
+				cursor: default;
+				color: #444444;
+			}
+
+			.nav-pills > li:not(.disabled).active > a {
+				background-color: #333333;
+				color: white;
+			}
+
+			.nav-pills > li > a {
+				color: #333333;
+			}
+
+			.nav-pills.system > li:not(.disabled).active > a {
+				background-color: #333333;
+				color: white;
+			}
+
+			.nav-pills.system > li > a {
+				color: #333333;
+			}
+
+			.nav-pills.organization > li:not(.disabled).active > a {
+				background-color: #777777;
+				color: white;
+			}
+
+			.nav-pills.organization > li > a {
+				color: #777777;
+			}
+
+			.nav-pills.department > li:not(.disabled).active > a {
+				background-color: $apexBlue;
+				color: white;
+			}
+
+			.nav-pills.department > li > a {
+				color: $apexBlue;
+			}
+
+			.nav-pills.product > li:not(.disabled).active > a {
+				background-color: $apexRed;
+				color: white;
+			}
+
+			.nav-pills.product > li > a {
+				color: $apexRed;
+			}
+
+			.tab-pane {
+				margin-bottom: 3em;
+				text-align: left;
+				margin-left: 0.3em;
+			}
+
+			.infoHeader {
+				font-family: "Open Sans", sans-serif;
+				font-size: 0.9em;
+				text-transform: uppercase;
+				background-color: rgba(0, 0, 0, 0.1);
+				margin: 1em 0 0;
+				border-radius: 3px;
+				display: inline-block;
+				overflow: hidden;
+				padding: 0.3em 0;
+				cursor: pointer;
+			}
+
+			.infoHeader.collapse ~ div,
+			.infoHeader.collapse ~ table,
+			.infoHeader.collapse ~ ul {
+				display: none;
+			}
+
+			.infoHeader > span {
+				padding: 0.3em 0.5em;
+			}
+
+			.infoHeader > span:first-of-type {
+				background-color: #333333;
+				color: white;
+			}
+
+			.infoHeader.success > span:first-of-type {
+				background-color: $successGreen !important;
+			}
+
+			.infoHeader > span:last-of-type {
+				font-weight: bold;
+				color: #333333;
+			}
+
+			.infoHeader.system > span:first-of-type {
+				background-color: #333333;
+				color: white;
+			}
+
+			.infoHeader.system > span:last-of-type {
+				color: #333333;
+			}
+
+			.infoHeader.organization > span:first-of-type {
+				background-color: #aaaaaa;
+				color: white;
+			}
+
+			.infoHeader.organization > span:last-of-type {
+				color: #777777;
+			}
+
+			.infoHeader.department > span:first-of-type {
+				background-color: $apexBlue;
+				color: white;
+			}
+
+			.infoHeader.department > span:last-of-type {
+				color: $apexBlue;
+			}
+
+			.infoHeader.product > span:first-of-type {
+				background-color: $apexRed;
+				color: white;
+			}
+
+			.infoHeader.product > span:last-of-type {
+				color: $apexRed;
+			}
+
+			.infoHeader .fa-caret-up {
+				color: grey;
+				margin-left: 0;
+				padding: 0 0.5em;
+				transition: transform 200ms ease-out;
+			}
+
+			.infoHeader.collapse .fa-caret-up {
+				transform: rotate(180deg);
+			}
+
+			.infoHeader + span {
+				font-size: 0.8em;
+				color: grey;
+				margin-left: 0.7em;
+				font-style: italic;
+			}
+
+			.reportKeyContainer {
+				margin-top: 1em;
+				margin-bottom: 1em;
+				text-align: left;
+				width: 100%;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				color: #444444;
+				font-size: 0.85em;
+
+				p {
+					max-width: 700px;
+					line-height: 1.5em;
+
+					a {
+						text-decoration: none;
+						color: $apexRed;
+						margin: 0.4em 0;
+					}
+				}
+			}
+
+			.reportKeyContainer:first-of-type {
+				border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			}
+
+			.reportKeyContainer:last-of-type {
+				border-top: 1px solid rgba(0, 0, 0, 0.1);
+			}
+		}
+
+		.reportExportButton > i.fa-spinner {
+			margin-left: 0.3em;
+		}
+
+		.reportExportButton.excel {
+			background-color: $successGreen;
+			color: white;
+
+			> * {
+				color: white;
+			}
+		}
+
+		.reportExportButton.csv {
+			background-color: $apexBlue;
+			color: white;
+		}
+
+		.reportExportContainer {
+			> *:not(p) {
+				margin: 1em;
+			}
+		}
+	}
+
+	#reportModeContainer {
+		#reportScheduleContinueButton {
+			background-color: $apexRed;
+			color: white;
+		}
+	}
+}

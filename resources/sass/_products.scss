@@ -1,0 +1,141 @@
+
+	// @media screen and (max-width: 767px) {
+	// 	.adam{
+	// 		display:none;
+			
+	// 	}
+	// 	.adam{
+	// 		display:inline-block;
+	// 		height:50px;
+	// 		width:auto;
+	// 		margin-top:-15px;
+	// 	}
+	// }
+	// @media screen and (min-width: 767px) {
+	// 	.adam{
+	// 		display:inline-block;
+	// 		height:50px;
+	// 		width:auto;
+	// 	}
+	// 	.adam{
+	// 		display:none;
+	// 	}
+	// }
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+	.adam{
+		height:auto;
+		width:200px;
+		margin: 0 auto;
+    	display: block;
+	}
+}
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 480px) and (max-width : 1024px) {
+	.adam{
+		height:auto;
+		width:400px;
+		margin: 0 auto;
+    	display: block;
+	}
+}
+
+@media only screen and (min-width:1024px){
+	.adam{
+		height:auto;
+		width:400px;
+		margin: 0 auto;
+    	display: block;
+	}
+
+}
+
+.productFlexSlider{
+	max-height: 662px;
+    overflow-y: auto;
+}
+.products img{
+	max-width:250px;
+}
+// .medGrayGradient
+// {
+// 	// Needs latest Compass, add '@import "compass"' to your scss
+// // Permalink - use to edit and share this gradient:
+// // http://colorzilla.com/gradient-editor/#bfbfbf+0,7a7a7a+100
+// background-color: rgb(191,191,191); // Old browsers
+// @include filter-gradient(#bfbfbf, #7a7a7a, horizontal); // IE6-9
+// @include background-image(linear-gradient(left,  rgba(191,191,191,1) 0%,rgba(122,122,122,1) 100%));
+
+// }
+// .lightGrayGradient
+// {
+// 	// Needs latest Compass, add '@import "compass"' to your scss
+// // Permalink - use to edit and share this gradient:
+// // http://colorzilla.com/gradient-editor/#c9c9c9+0,ececec+100
+// background-color: rgb(201,201,201); // Old browsers
+// @include filter-gradient(#c9c9c9, #ececec, horizontal); // IE6-9
+// @include background-image(linear-gradient(left,  rgba(201,201,201,1) 0%,rgba(236,236,236,1) 100%));
+
+// }
+// .darkGrayGradient
+// {
+// // Needs latest Compass, add '@import "compass"' to your scss
+// // Permalink - use to edit and share this gradient:
+// // http://colorzilla.com/gradient-editor/#c1c1c1+0,959595+100
+// background-color: rgb(193,193,193); // Old browsers
+// @include filter-gradient(#c1c1c1, #959595, horizontal); // IE6-9
+// @include background-image(linear-gradient(left,  rgba(193,193,193,1) 0%,rgba(149,149,149,1) 100%));
+// }
+
+table {border: 1px solid #aaa; border-collapse: collapse;}
+table th {color: white; background: rgb(162,4,0) url(../../images/bg_table_header.gif) repeat-x;}
+table th, table td {border: 1px solid #aaa; padding: 1px 4px; margin: 0; vertical-align: text-top;}
+table td.flagged {color: red; font-weight: bold;}
+table td.noted {color: green; font-weight: bold;}
+table.borderless {border: none; border-collapse: collapse;}
+table.borderless td {border: none; padding: 6px 4px; margin: 0; vertical-align: text-top;}
+
+p.tiny {font-size: .75em; line-height: 1em; color: #666; text-indent: -7px;}
+
+
+    .focusPoint{
+    	    padding: 10px;
+    	background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	}  
+
+
+.panel .panel-title > a {
+    margin-left: 2.5%;
+    font-size:1.5em;
+    padding: .7em 0 .7em 0;
+    display: inline-block;
+    width: 95%;
+    outline: medium none !important;
+}
+#main_news{
+	.table{
+		background:white;
+	}
+}
+
+.btn-apex-purple {
+	@include button-variant(#FFF, #7831C2, #7A22FF);
+}
+
+.btn-apex-red {
+	@include button-variant(#FFF, #dd3136, #A40000);
+}
+
+.btn-apex-yellow {
+	@include button-variant(#000, #FCD50C, #f4d32e);
+}
+
+.btn-apex-blue {
+	@include button-variant(#FFF, #3555B6, #29438F);
+}
+
+.btn-apex-green {
+	@include button-variant(#FFF, #13713a, #116534);
+}
+

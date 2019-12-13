@@ -1,0 +1,48 @@
+
+.teamButtons {
+	min-width:5em; 
+	min-height:2.5em;
+	color: black;
+	font-weight: bold;
+}
+
+.teamButtons.raised {
+	box-shadow: 0 5px 0 0 #9b1313;
+}
+
+.teamButtons.raised:active, .teamButtons.raised.active {
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.redDivide {
+	height: .15em;
+	width: 75%;
+	background: red;
+	margin: 0 auto;
+	-webkit-box-shadow: 2px 3px 3px  #750a0a;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    2px 3px 3px  #750a0a;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         2px 3px 3px  #750a0a;
+}
+
+.careerBulletList {
+	list-style-type:disc;
+	margin-left: 2em;
+	font-size: 85%;
+} 
+
+.careerSubInfoBreakdown {
+	padding-left: 1em;
+}
+
+.careerSubBulletList {
+	list-style-type:disc;
+	margin-left: 4em;
+	font-size: 85%;
+}
