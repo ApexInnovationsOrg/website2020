@@ -14922,8 +14922,7 @@ table.dataTable td {
 }
 
 body {
-  padding-top: 50px;
-  background: white;
+  background: blue;
   font-size: 1.2rem;
   line-height: 145%;
   color: #000;
@@ -14967,7 +14966,7 @@ div {
 }
 
 headings {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
