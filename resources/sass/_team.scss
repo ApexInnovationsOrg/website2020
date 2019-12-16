@@ -32,26 +32,27 @@
 
         // transform: scaleX(-1);
     }
- }
+}
 
 
 
- @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 	.profilePicContainer
  	{
  		margin:0 auto;
  	}
 }
+
 @keyframes MOVE-BG{
     from {
-        background-position: 0px 0px;;
+        background-position: 0px 0px;; 
     }
     to { 
         background-position: -150% 0px;;
     }
 }
 .sunburst{
-
+    
 }
 
 .lightGrayTranslucentBackground{
