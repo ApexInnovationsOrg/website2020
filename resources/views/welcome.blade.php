@@ -13,10 +13,10 @@
     <canvas id="pictureCanvas" height="459" width="1209" class="absolute fullHeight fullWidth absoluteTop absoluteLeft"></canvas>
 	</div>
   
-  <div class="row relative sliderContainer text-center" height="auto">	
+  <!-- <div class="row relative sliderContainer text-center" height="auto">	
 		<div class="col-lg-4 col-xs-4">
     </div>
-  </div>
+  </div> -->
 
   <div class="row relative " style="overflow:hidden">
     <div class="container relative translucentWhiteBackground ">
@@ -37,7 +37,6 @@
       <div class="col-lg-12">
         <div class="row text-center skyBlueBorderBottom">
           <h1 class="bold-font">APEX INNOVATIONS</h1>
-          <h4 class="bold-font">Improving Outcomes Through Education</h4>
         </div>
 
         <div class="row text-center smPadTop">
@@ -78,6 +77,7 @@
 		  <div class='row'>
 			  <div class='col-md-offset-2 col-md-8'>
 			    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            
             <!-- Bottom Carousel Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>

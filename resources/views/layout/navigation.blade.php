@@ -16,7 +16,8 @@
                 // }
 
             ?>
-            <img width="45" height="50" class="brand-image" src="/grfx/apexLogo.png" alt="logo">
+            <img width="430" height="85" class="brand-image" src="/grfx/apexLogo.png" alt="logo">
+            <img width="45" height="50" class="brand-icon" src="/grfx/starIcon.svg" alt="star icon">
         </a>
         
         <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
