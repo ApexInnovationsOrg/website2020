@@ -20,13 +20,27 @@
 
   <div class="row relative " style="overflow:hidden">
     <div class="container relative translucentWhiteBackground ">
-      <div class="row text-center skyBlueBorderBottom">  
+
+      <div class="row text-center b">  
         <h2>Welcome to Apex Innovations</h2>
+      </div> 
+
+      <div class="row text-center"> 
+        <p>Where education is exciting and competence is key!</p>
       </div>
-      
+
+      <div class="row text-center">
+        <p>For healthcare professionals in organizations and academia.</p>
+      </div>
+
+      <div class="row text-center">
+        <p>We empower the healthcare team to deliver the best care possible.</p>
+      </div> 
+
       <div id="accreditation_logos_home">
         <img width="150px" src="grfx/jointAccreditation.png" alt="Joint Accreditation" />
       </div>
+
     </div>
   </div>
     
