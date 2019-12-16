@@ -21,15 +21,14 @@
     </div>
     <div class="row relative " style="overflow:hidden">
         <div class="container relative translucentWhiteBackground ">
-            <img alt="Background Effect" width="1020" height="1002" class="grayLine1 absolute" src="grfx/grayLine1.svg" />
+            <!-- <img alt="Background Effect" width="1020" height="1002" class="grayLine1 absolute" src="grfx/grayLine1.svg" />
             <img alt="Background Effect" width="1020" height="1002" class="blueLine1 absolute" src="grfx/blueLine1.svg" />
             <img alt="Background Effect" width="1021" height="509" class="blueLine2 absolute" src="grfx/blueLine2.svg" />
             <div data-700="transform:translateY(0px);opacity:1;" data-800="transform:translateY(-100px);opacity:0;" class="text-center col-lg-12 text-uppercase loginButtonContainer">
                 <a href="https://login.apexinnovations.com/"><div class="loginButton">LOGIN</div></a>
-            </div>
+            </div> -->
             <div id="accreditation_logos_home">
-                <img width="92" src="grfx/ACCME_Commedation.png" alt="ACCME Accredited with Commendation" />
-                <img width="100" src="grfx/ancc.png" alt="ANCC Accredited" />
+                <img width="92" src="jointAccreditation.png" alt="Joint Accreditation" />
             </div>
         </div>
     </div>
