@@ -8,11 +8,12 @@
             href="TermsAndConditions.html">Terms &amp; Conditions</a> | <a href="EULA.html">EULA</a>
         </div>
       </div>
+
       <?php
         if(gethostname() =="devbox2.apex.local" && strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') == false)
         {
-        echo '<script src="//devbox2.apexinnovations.com:35729/livereload.js"></script>';
-      }
+          echo '<script src="//devbox2.apexinnovations.com:35729/livereload.js"></script>';
+        }
       ?>
     </div>
   </div>
@@ -34,4 +35,5 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 	  gtag('config', 'UA-42676756-1');
-</script>
+  </script>
+</div> 
