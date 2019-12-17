@@ -528,25 +528,22 @@ a {
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators
 {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+ 	margin-right: -19px;
 }
 /* Changes the color of the indicators */
 #quote-carousel .carousel-indicators li
 {
   background: #DDDDDD;
+  border-radius:100%;
 }
 #quote-carousel .carousel-indicators .active
 {
   background: #010101;
 }
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
-}
+
 /* End carousel */
 
 .item blockquote {

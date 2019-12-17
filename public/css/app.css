@@ -15493,15 +15493,11 @@ body.modal-open {
 
 #quote-carousel .carousel-indicators li {
   background: #DDDDDD;
+  border-radius: 100%;
 }
 
 #quote-carousel .carousel-indicators .active {
   background: #010101;
-}
-
-#quote-carousel img {
-  width: 250px;
-  height: 100px;
 }
 
 /* End carousel */

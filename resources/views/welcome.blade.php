@@ -135,13 +135,13 @@
           </ol>
 
           <!-- Carousel Slides / Quotes -->
-          <div class="carousel-inner">
+          <div class="carousel-inner text-center">
 
             <!-- Quote 1 -->
             <div class="item active">
-              <div class="testimonialPanel center">
+              <div class="testimonialPanel">
                 <p>"So we have been a PSC since 2012. We have never given t-PA in less than 71 minutes, until last week!  We had a 59 minute time.  I think all of the additional education is really paying off!  Thanks for the help"</p>
-                <small class="testimonialText">Beth Wiese, RN Stroke Program Coordinator</small>
+                <small class="testimonialText">Beth Wiese - RN Stroke Program Coordinator</small>
               </div>
             </div>
             
@@ -149,7 +149,7 @@
             <div class="item">
               <div class="testimonialPanel">
                 <p>"I think it's a great way to have an interactive view of anatomy... then they understand neuro."</p>
-                <small class="testimonialText">Debbie Summers, RN, MSN, ACNS-BC</small>
+                <small class="testimonialText">Debbie Summers - RN, MSN, ACNS-BC</small>
               </div>
             </div>
             
@@ -157,7 +157,7 @@
             <div class="item">  
               <div class="testimonialPanel">
                 <p>"It's so easy to use! It's very clear how to manuever around. Just a click and you can find out information with what's happening in the anatomy."</p>
-                <small class="testimonialText">Rachel Malloy, CNRN</small>
+                <small class="testimonialText">Rachel Malloy - CNRN</small>
               </div>
             </div>
             
@@ -165,7 +165,7 @@
             <div class="item">  
               <div class="testimonialPanel">
                 <p>"Each program actually addresses various learning styles for the participant. So it uses audio, visual, and even tactile learning styles so that each individual person can gain the maximum benefit out of using the program."</p>
-                <small class="testimonialText">Christie Artuso, Ed D, RN, CNRN</small>
+                <small class="testimonialText">Christie Artuso - Ed D, RN, CNRN</small>
               </div>
             </div>
 
