@@ -14944,6 +14944,10 @@ body {
   margin: 0 !important;
 }
 
+.grey {
+  background-color: #F9F9FA;
+}
+
 h1,
 h2,
 h3,

@@ -18,76 +18,110 @@
     </div>
   </div> -->
 
-  <div class="row relative " style="overflow:hidden">
-    <div class="container relative translucentWhiteBackground ">
-
-      <div class="row text-center b">  
+  <div class="container-fluid">
+      <div class="row justify-content-sm-center">  
         <h2>Welcome to Apex Innovations</h2>
       </div> 
 
-      <div class="row text-center"> 
+      <div class="row justify-content-sm-center"> 
         <p>Where education is exciting and competence is key!</p>
       </div>
 
-      <div class="row text-center">
+      <div class="row justify-content-sm-center">
         <p>For healthcare professionals in organizations and academia.</p>
       </div>
 
-      <div class="row text-center">
+      <div class="row justify-content-sm-center">
         <p>We empower the healthcare team to deliver the best care possible.</p>
       </div> 
 
-      <div id="accreditation_logos_home">
+      <div  class="row justify-content-sm-center">
         <img width="150px" src="grfx/jointAccreditation.png" alt="Joint Accreditation" />
       </div>
-
-    </div>
   </div>
     
   <!-- Page Content -->
     
-  <div class="container translucentWhiteBackground bigPadTop">
-	  <div class="row relative">
-      <div class="col-lg-12">
-        <div class="row text-center skyBlueBorderBottom">
-          <h2>Online Education and Tools</h2>
-        </div>
-
-        <div class="row text-center smPadTop">
-          <p class="lead">The mission of Apex Innovations is to improve knowledge and clinical competency for optimal patient outcomes, by creating and delivering effective, guideline-based online education for the healthcare team. Our vision is to transform clinical education using unique, interactive, and realistic 3-D animations to address educational needs. Our design approach is to make difficult concepts come to life to enhance the learning experience.</p>
-        </div>
-
-        <div class="row text-left" style="display: flex; align-items: center; flex-wrap:wrap">
-          <div class="col-lg-4 col-sm-12">
-            <img alt="Teaching Science" data-550="transform:translateX(-400px);opacity:0;" data-600="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/genericGraphic1.svg"/>
-          </div>    
-          <p class="lead col-lg-8 col-sm-12">In 2002, Apex Innovations was founded by Marianne Bourgeois, an emergency nurse who witnessed a false computer-generated 12-lead ECG interpretation for a patient who was really having an MI. She developed MI Rule Visions&reg;, a template to help others better understand 12-lead ECGs and subsequently, online continuing education.</p>
-        </div>
-
-        <div class="row text-left" style="display: flex; align-items: center;flex-wrap:wrap">
-          <div class="col-lg-4 col-sm-12">
-            <img alt="Heart Rhythm" data-850="transform:translateX(-400px);opacity:0;" data-900="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/genericGraphic2.svg"/>
-          </div>
-          <p class="lead col-lg-8 col-sm-12">Located in the heart of Cajun country, Lafayette, Louisiana, Apex Innovations is housed amid lively festivals, spicy foods and people deeply rooted in their Southern charm and rich culture.  We are dedicated to educating the medical community and providing learning that is unique and fun to learn!</p>
-        </div>
-  
-        <div class="row text-center smPadTop">
-          <p class="lead">Apex Innovations provides the highest quality online continuing education to individuals, hospitals and health systems, universities, organizations, and corporations around the world. With a goal to empower our learners to deliver the best health care possible, Apex Innovations designs, manufactures, and provides education filled with amazing graphics, 3-D animations, and interactivity.</p>
-        </div>   
-        </div>
-    </div>
-  </div>
-	
-  <div class="row relative overflowXHidden">
-    <img alt="Background Effect" width="1020" height="1002" class="blueLine3 absolute" src="grfx/blueLine3.svg"/>
-  </div>
-    
-  <div class="row grayBackground relative">
-    <div id="carouselContainer" class="container">
-      <div class="row text-center">
-        <h1 class="bold-font">CUSTOMER TESTIMONIALS</h1>
+  <div class="container-fluid">
+	  <div class="row grey">
+      <div class="col-sm-12">
+        <h2>Online Education and Tools</h2>
       </div>
 
+      <div class="row">
+        <div class="col-sm-6">
+          <img alt="Product Box" data-550="transform:translateX(-400px);opacity:0;" data-600="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/Impulse3_ProductBox_R.png"/>
+        </div>
+
+        <div class="col-sm-6">
+          <h4>imPulse 3.0</h4>
+          <p>ECG and Chest Pain Competency SeriesNine individual guideline-based courses are designed to address the educational needs of monitor techs to physicians.</p>
+        </div>
+      </div>
+
+        <!-- <div class="row text-left" style="display: flex; align-items: center; flex-wrap:wrap">
+          <div class="col-lg-4 col-sm-12">
+            
+          </div>    
+          <p class="lead col-lg-8 col-sm-12">In 2002, Apex Innovations was founded by Marianne Bourgeois, an emergency nurse who witnessed a false computer-generated 12-lead ECG interpretation for a patient who was really having an MI. She developed MI Rule Visions&reg;, a template to help others better understand 12-lead ECGs and subsequently, online continuing education.</p>
+          
+          <div class="row text-left" style="display: flex; align-items: center;flex-wrap:wrap">
+            <div class="col-lg-4 col-sm-12">
+              <img alt="Heart Rhythm" data-850="transform:translateX(-400px);opacity:0;" data-900="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/genericGraphic2.svg"/>
+            </div>
+            <p class="lead col-lg-8 col-sm-12">Located in the heart of Cajun country, Lafayette, Louisiana, Apex Innovations is housed amid lively festivals, spicy foods and people deeply rooted in their Southern charm and rich culture.  We are dedicated to educating the medical community and providing learning that is unique and fun to learn!</p>
+          </div>
+          
+          <div class="row text-center smPadTop">
+            <p class="lead">Apex Innovations provides the highest quality online continuing education to individuals, hospitals and health systems, universities, organizations, and corporations around the world. With a goal to empower our learners to deliver the best health care possible, Apex Innovations designs, manufactures, and provides education filled with amazing graphics, 3-D animations, and interactivity.</p>
+          </div>   
+        </div>
+      </div>
+    </div>
+    
+    <div class="row relative overflowXHidden">
+      <img alt="Background Effect" width="1020" height="1002" class="blueLine3 absolute" src="grfx/blueLine3.svg"/>
+    </div> -->
+  </div>
+
+  <!-- Partners -->
+  <div class="container-fluid">
+	  <div class="row">
+      <div class="col-sm-4">
+        <img width="150px" src="grfx/BSWH_logo.jpg" alt="Baylor Scott and White" />
+      </div>
+
+      <div class="col-sm-4">
+        <img width="150px" src="grfx/LifePoint_logo.jpg" alt="LifePoint Health" />
+      </div>
+
+      <div class="col-sm-4">
+        <img width="150px" src="grfx/NorthShore_logo.jpg" alt="NorthShore" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Quantum -->
+  <div class="container-fluid">
+	  <div class="row grey">
+      <div class="col-sm-12">
+        <h2>Validate Competency</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Measure student performance and validate competency with Quantum, the first and only instructor-mediated, performance assessment tool.</p>
+        </div>
+
+        <div class="col-sm-6">
+          <img alt="Product Box" data-550="transform:translateX(-400px);opacity:0;" data-600="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/Quantum_ProductBox_L.png"/>
+        </div>
+      </div>
+  </div>
+    
+  <!-- Customer Testimonials -->
+  <div id="carouselContainer" class="container">
+    <div class="row">
 		  <div class='row'>
 			  <div class='col-md-offset-2 col-md-8'>
 			    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
@@ -103,70 +137,55 @@
             <!-- Carousel Slides / Quotes -->
             <div class="carousel-inner">
 
-            <!-- Quote 1 -->
-            <div class="item active">
-              <blockquote>
+              <!-- Quote 1 -->
+              <div class="item active">
                 <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img alt="Beth Wiese" class="img-circle" src="grfx/bethWiese.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  
-                  <div class="col-sm-9 testimonialPanel">
-                    <p>So we have been a PSC since 2012.  We have never given t-PA in less than 71 minutes, until last week!  We had a 59 minute time.  I think all of the additional education is really paying off!  Thanks for the help</p>
-                    <small class="testimonialText">Beth Wiese, RN Stroke Program Coordinator</small>
-                  </div>
+                  <blockquote>
+                    <div class="col-sm-12 testimonialPanel">
+                      <p>So we have been a PSC since 2012.  We have never given t-PA in less than 71 minutes, until last week!  We had a 59 minute time.  I think all of the additional education is really paying off!  Thanks for the help</p>
+                      <small class="testimonialText">Beth Wiese, RN Stroke Program Coordinator</small>
+                    </div>
+                  </blockquote>
                 </div>
-              </blockquote>
-            </div>
-            
-            <!-- Quote 2 -->
-            <div class="item">
-              <blockquote>
+              </div>
+              
+              <!-- Quote 2 -->
+              <div class="item">
                 <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img alt="Deb Summers" class="img-circle" src="grfx/debSummers.png" style="width: 100px;height:100px;">
-                  </div>
+                  <blockquote>
+                    <div class="col-sm-12 testimonialPanel">
+                      <p>I think it's a great way to have an interactive view of anatomy... then they understand neuro. </p>
+                      <small class="testimonialText">Debbie Summers, RN, MSN, ACNS-BC</small>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+              
+              <!-- Quote 3 -->
+              <div class="item">
+                <div class="row">
+                  <blockquote>
+                    <div class="col-sm-12 testimonialPanel">
+                      <p>It's so easy to use! It's very clear how to manuever around. Just a click and you can find out information with what's happening in the anatomy.</p>
+                      <small class="testimonialText">Rachel Malloy, CNRN</small>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+              
+              <!-- Quote 4 -->
+              <div class="item">
+                <div class="row">
+                  <blockquote>
+                    <div class="col-sm-12 testimonialPanel">
+                      <p>Each program actually addresses various learning styles for the participant. So it uses audio, visual, and even tactile learning styles so that each individual person can gain the maximum benefit out of using the program.</p>
+                      <small class="testimonialText">Christie Artuso, Ed D, RN, CNRN</small>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
 
-                  <div class="col-sm-9 testimonialPanel">
-                    <p>I think it's a great way to have an interactive view of anatomy... then they understand neuro. </p>
-                    <small class="testimonialText">Debbie Summers, RN, MSN, ACNS-BC</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            
-            <!-- Quote 3 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img alt="Rachel Malloy" class="img-circle" src="grfx/rachelMalloy.jpg" style="width: 100px;height:100px;">
-                  </div>
-                  <div class="col-sm-9 testimonialPanel">
-                    <p>It's so easy to use! It's very clear how to manuever around. Just a click and you can find out information with what's happening in the anatomy.</p>
-                    <small class="testimonialText">Rachel Malloy, CNRN</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            
-            <!-- Quote 4 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-3 text-center">
-                    <img alt="Christie Artuso" class="img-circle" src="grfx/cArtuso.png" style="width: 100px;height:100px;">
-                  </div>
-
-                  <div class="col-sm-9 testimonialPanel">
-                    <p>Each program actually addresses various learning styles for the participant. So it uses audio, visual, and even tactile learning styles so that each individual person can gain the maximum benefit out of using the program.</p>
-                    <small class="testimonialText">Christie Artuso, Ed D, RN, CNRN</small>
-                  </div>
-                </div>
-              </blockquote> 
-            </div>
-
-          </div>
+           </div>
 			  </div>
 		  </div>
 	  </div>
