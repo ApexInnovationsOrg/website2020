@@ -122,72 +122,64 @@
   <!-- Customer Testimonials -->
   <div id="carouselContainer" class="container">
     <div class="row">
-		  <div class='row'>
-			  <div class='col-md-offset-2 col-md-8'>
-			    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+		  
+      <div class='col-sm-12'>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1"></li>
+            <li data-target="#quote-carousel" data-slide-to="2"></li>
+            <li data-target="#quote-carousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+
+            <!-- Quote 1 -->
+            <div class="item active">
+              <blockquote>
+                <div class="testimonialPanel">
+                  <p>So we have been a PSC since 2012.  We have never given t-PA in less than 71 minutes, until last week!  We had a 59 minute time.  I think all of the additional education is really paying off!  Thanks for the help</p>
+                  <small class="testimonialText">Beth Wiese, RN Stroke Program Coordinator</small>
+                </div>
+              </blockquote>
+            </div>
             
-            <!-- Bottom Carousel Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#quote-carousel" data-slide-to="1"></li>
-              <li data-target="#quote-carousel" data-slide-to="2"></li>
-              <li data-target="#quote-carousel" data-slide-to="3"></li>
-            </ol>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="testimonialPanel">
+                  <p>I think it's a great way to have an interactive view of anatomy... then they understand neuro. </p>
+                  <small class="testimonialText">Debbie Summers, RN, MSN, ACNS-BC</small>
+                </div>
+              </blockquote>
+            </div>
+            
+            <!-- Quote 3 -->
+            <div class="item">
+                <blockquote>
+                  <div class="testimonialPanel">
+                    <p>It's so easy to use! It's very clear how to manuever around. Just a click and you can find out information with what's happening in the anatomy.</p>
+                    <small class="testimonialText">Rachel Malloy, CNRN</small>
+                  </div>
+                </blockquote>
+            </div>
+            
+            <!-- Quote 4 -->
+            <div class="item">
+                <blockquote>
+                  <div class="testimonialPanel">
+                    <p>Each program actually addresses various learning styles for the participant. So it uses audio, visual, and even tactile learning styles so that each individual person can gain the maximum benefit out of using the program.</p>
+                    <small class="testimonialText">Christie Artuso, Ed D, RN, CNRN</small>
+                  </div>
+                </blockquote>
+            </div>
 
-            <!-- Carousel Slides / Quotes -->
-            <div class="carousel-inner">
-
-              <!-- Quote 1 -->
-              <div class="item active">
-                <div class="row">
-                  <blockquote>
-                    <div class="col-sm-12 testimonialPanel">
-                      <p>So we have been a PSC since 2012.  We have never given t-PA in less than 71 minutes, until last week!  We had a 59 minute time.  I think all of the additional education is really paying off!  Thanks for the help</p>
-                      <small class="testimonialText">Beth Wiese, RN Stroke Program Coordinator</small>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-              
-              <!-- Quote 2 -->
-              <div class="item">
-                <div class="row">
-                  <blockquote>
-                    <div class="col-sm-12 testimonialPanel">
-                      <p>I think it's a great way to have an interactive view of anatomy... then they understand neuro. </p>
-                      <small class="testimonialText">Debbie Summers, RN, MSN, ACNS-BC</small>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-              
-              <!-- Quote 3 -->
-              <div class="item">
-                <div class="row">
-                  <blockquote>
-                    <div class="col-sm-12 testimonialPanel">
-                      <p>It's so easy to use! It's very clear how to manuever around. Just a click and you can find out information with what's happening in the anatomy.</p>
-                      <small class="testimonialText">Rachel Malloy, CNRN</small>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-              
-              <!-- Quote 4 -->
-              <div class="item">
-                <div class="row">
-                  <blockquote>
-                    <div class="col-sm-12 testimonialPanel">
-                      <p>Each program actually addresses various learning styles for the participant. So it uses audio, visual, and even tactile learning styles so that each individual person can gain the maximum benefit out of using the program.</p>
-                      <small class="testimonialText">Christie Artuso, Ed D, RN, CNRN</small>
-                    </div>
-                  </blockquote>
-                </div>
-              </div>
-
-           </div>
-			  </div>
-		  </div>
+        </div>
+      </div>
+		  
 	  </div>
   </div>
    
