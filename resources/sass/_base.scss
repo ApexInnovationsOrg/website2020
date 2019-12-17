@@ -19,8 +19,8 @@ $darkGrayBG :  rgba(0, 0, 0, 0.69);
  
 body {
 	background: white;
-	font-size: 1.2rem;
-	line-height: 145%; 
+	font-size: 1rem;
+	line-height: 170%; 
 	color:#000;
     overflow-x: hidden;
 }
@@ -42,14 +42,14 @@ body {
   }
 
 }
-  .row{
+.row{
 	margin: 0 !important;
 	}
 h1, h2, h3, h4, h5, h6 { 
-    font-family:'Open Sans Condensed', sans-serif !important;
+	font-family:'Open Sans', sans-serif !important;
 }
 p, div {
-    font-family:'Open Sans Condensed', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 #{headings()} {
 	font-family: $font-sans;

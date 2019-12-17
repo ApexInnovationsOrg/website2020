@@ -46,11 +46,11 @@
     
   <!-- Page Content -->
     
-	<div class="row relative">
-		<div class="container translucentWhiteBackground bigPadTop">
+  <div class="container translucentWhiteBackground bigPadTop">
+	  <div class="row relative">
       <div class="col-lg-12">
         <div class="row text-center skyBlueBorderBottom">
-          <h1 class="bold-font">APEX INNOVATIONS</h1>
+          <h2>Online Education and Tools</h2>
         </div>
 
         <div class="row text-center smPadTop">
