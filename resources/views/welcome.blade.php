@@ -54,7 +54,7 @@
         </div>
 
         <div class="col-sm-6">
-          <h4>imPulse 3.0</h4>
+          <h4>imPULSE 3.0</h4>
           <p>ECG and Chest Pain Competency SeriesNine individual guideline-based courses are designed to address the educational needs of monitor techs to physicians.</p>
         </div>
       </div>

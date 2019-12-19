@@ -1,12 +1,12 @@
 <div class="container">
   <div class="text-center em2 med-margin-top med-margin-bot">
 
-    <div class="row">Copyright 2002 - <?php echo date(" Y" ); ?> Apex Innovations, LLC, All Rights Reserved</div>
+    <!-- <div class="row">Copyright 2002 - <?php echo date(" Y" ); ?> Apex Innovations, LLC, All Rights Reserved</div>
       <div class="row">
         <div class="sm-margin-top">
           <a href="contactUs.html">Contact Us</a> | <a href="PrivacyPolicy.html">Privacy Policy</a> | <a
             href="TermsAndConditions.html">Terms &amp; Conditions</a> | <a href="EULA.html">EULA</a>
-        </div>
+        </div> -->
       </div>
   </div>
 
@@ -79,7 +79,10 @@
        <p>Apex Innovations, LLC</p>
     </div>
     <div class="col-sm-4">
-       
+       <img width="25" src="/grfx/facebook_sms.png" alt="facebook">
+       <img width="25" src="/grfx/twitter_sms.png" alt="twitter">
+       <p>866-294-4599</p>
+       <p></p>
     </div>
     <div class="col-sm-4">
        

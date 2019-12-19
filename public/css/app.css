@@ -15079,6 +15079,7 @@ headings {
 
 @media (max-width: 1200px) {
   .navbar-header {
+    font-family: 'Open Sans', sans-serif;
     float: none;
   }
 
