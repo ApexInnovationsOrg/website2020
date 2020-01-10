@@ -14922,12 +14922,7 @@ body {
   overflow-x: hidden;
 }
 
-.navbar-nav > li {
-  width: 70px;
-}
-
 .activeNav {
-  background: #ECECEC;
   border-bottom: #C9252C 3px solid;
 }
 
@@ -14962,8 +14957,11 @@ h6 {
 .header {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  border-bottom: #C9252C 2px solid;
   padding-bottom: 10px;
+}
+
+.redBot {
+  border-bottom: #C9252C 2px solid;
 }
 
 p {
@@ -14972,15 +14970,6 @@ p {
 
 div {
   font-family: 'Open Sans', sans-serif;
-}
-
-.remove-top {
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.absolute {
-  position: absolute;
 }
 
 .text-color-white {
@@ -15089,16 +15078,9 @@ div {
   margin-left: 15px;
 }
 
-.navbar-nav > li {
-  display: table;
-  height: 70px;
-}
-
-.navbar-nav > li a {
-  display: table-cell;
-  vertical-align: top;
-  font-family: Open Sans;
-  font-weight: bold;
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: 800;
 }
 
 .contactUs {
