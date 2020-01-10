@@ -14931,14 +14931,12 @@ body {
   border-bottom: #C9252C 3px solid;
 }
 
-/* Portrait and Landscape */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .container {
-    max-width: 350px !important;
-    margin: 0 auto;
-  }
+.bottomBorder {
+  border-bottom: #C9252C 3px solid;
+  width: 75%;
 }
+
+/* Portrait and Landscape */
 
 .row {
   margin: 0 !important;
@@ -14961,19 +14959,19 @@ h6 {
   font-family: 'Open Sans', sans-serif !important;
 }
 
-p,
-div {
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  border-bottom: #C9252C 2px solid;
+  padding-bottom: 10px;
+}
+
+p {
   font-family: 'Open Sans', sans-serif;
 }
 
-headings {
-  font-family: "Nunito", sans-serif;
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img[src*=".svg"] {
-    width: 100%;
-  }
+div {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .remove-top {
@@ -14981,175 +14979,8 @@ headings {
   padding-top: 0px;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-brand .brand-image {
-    display: none;
-  }
-
-  .navbar-brand .brand-icon {
-    display: inline-block;
-    height: 50px;
-    width: auto;
-    margin-top: -15px;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .navbar-brand .brand-image {
-    display: inline-block;
-    height: 50px;
-    width: auto;
-  }
-
-  .navbar-brand .brand-icon {
-    display: none;
-  }
-}
-
 .absolute {
   position: absolute;
-}
-
-@media screen and (min-width: 1200px) {
-  .blueLine1 {
-    left: -500px;
-    top: -840px;
-  }
-
-  .blueLine3 {
-    right: -330px;
-    top: -500px;
-  }
-
-  .blueLine2 {
-    left: 39px;
-    top: -300px;
-  }
-
-  .grayLine1 {
-    left: -477px;
-    top: -777px;
-    opacity: .6;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .blueLine1 {
-    display: none;
-  }
-
-  .blueLine2 {
-    left: -430px;
-    top: -300px;
-  }
-
-  .blueLine3 {
-    right: -445px;
-    top: -500px;
-  }
-
-  .grayLine1 {
-    left: -950px;
-    top: -777px;
-    opacity: .6;
-  }
-}
-
-@media screen and (min-width: 700px) and (max-width: 1200px) {
-  .blueLine1 {
-    display: none;
-  }
-
-  .blueLine2 {
-    left: -200px;
-    top: -300px;
-  }
-
-  .grayLine1 {
-    left: -700px;
-    top: -777px;
-    opacity: .6;
-  }
-
-  .blueLine3 {
-    right: -445px;
-    top: -500px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .navbar-header {
-    font-family: 'Open Sans', sans-serif;
-    float: none;
-  }
-
-  .navbar-left,
-  .navbar-right {
-    float: none !important;
-  }
-
-  .navbar-toggle {
-    display: block;
-  }
-
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px;
-  }
-
-  .navbar-nav > li {
-    float: none;
-  }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .collapse.in {
-    display: block !important;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-brand .brand-image {
-    display: none;
-  }
-
-  .navbar-brand .brand-icon {
-    display: inline-block;
-    height: 50px;
-    width: auto;
-    margin-top: -15px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .navbar-brand .brand-image {
-    display: inline-block;
-    height: 50px;
-    width: auto;
-  }
-
-  .navbar-brand .brand-icon {
-    display: none;
-  }
 }
 
 .text-color-white {
@@ -15276,7 +15107,6 @@ headings {
 
 .contactUs h2 {
   margin-top: 60px;
-  margin-bottom: 30px;
 }
 
 .contactUs button {
@@ -15303,30 +15133,6 @@ headings {
   border-radius: 0px;
   background: transparent;
   margin-bottom: 30px;
-}
-
-.contactUs input::-webkit-input-placeholder,
-.contactUs textarea::-webkit-input-placeholder,
-.contactUs button::-webkit-input-placeholder {
-  color: white;
-}
-
-.contactUs input:-moz-placeholder,
-.contactUs textarea:-moz-placeholder,
-.contactUs button:-moz-placeholder {
-  color: white;
-}
-
-.contactUs input::-moz-placeholder,
-.contactUs textarea::-moz-placeholder,
-.contactUs button::-moz-placeholder {
-  color: white;
-}
-
-.contactUs input:-ms-input-placeholder,
-.contactUs textarea:-ms-input-placeholder,
-.contactUs button:-ms-input-placeholder {
-  color: white;
 }
 
 .monthlyNewsletter {
@@ -15484,21 +15290,36 @@ body.modal-open {
 /* Changes the position of the indicators */
 
 #quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
+  width: 100%;
+  bottom: 9px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  text-align: center;
 }
 
-/* Changes the color of the indicators */
+/* Changes the color of the carousel indicators */
 
 #quote-carousel .carousel-indicators li {
-  background: #DDDDDD;
+  top: -5px;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  position: relative;
   border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #quote-carousel .carousel-indicators .active {
-  background: #010101;
+  top: -5px;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #010101;
 }
 
 /* End carousel */
@@ -15538,36 +15359,7 @@ body.modal-open {
 
 /* Small devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
-  #quote-carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-    margin-top: 30px;
-  }
-}
-
 /* Small devices (tablets, up to 768px) */
-
-@media (max-width: 768px) {
-  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-
-  #quote-carousel .carousel-indicators {
-    bottom: -20px !important;
-  }
-
-  #quote-carousel .carousel-indicators li {
-    display: inline-block;
-    margin: 0px 5px;
-    width: 15px;
-    height: 15px;
-  }
-
-  #quote-carousel .carousel-indicators li.active {
-    margin: 0px 5px;
-    width: 20px;
-    height: 20px;
-  }
-}
 
 .adminProfile li {
   padding-bottom: .75em;
@@ -15604,27 +15396,6 @@ body.modal-open {
   text-align: center;
   padding-top: 3em;
   z-index: 1000;
-}
-
-@media (max-width: 1200px) {
-  #accreditation_logos_home {
-    right: 4em;
-    top: 2em;
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 991px) {
-  #accreditation_logos_home {
-    width: 100%;
-    position: relative;
-    right: auto;
-    margin-bottom: 2em;
-  }
-
-  #accreditation_logos_home > img {
-    margin: 0 1em;
-  }
 }
 
 #accreditation_logos_products {

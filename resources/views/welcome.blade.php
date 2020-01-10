@@ -19,9 +19,9 @@
   </div> -->
 
   <div class="container-fluid">
-      <div class="row justify-content-sm-center">  
-        <h2>Welcome to Apex Innovations</h2>
-      </div> 
+     <div class="row justify-content-sm-center header">  
+       Welcome to Apex Innovations
+      </div>  
 
       <div class="row justify-content-sm-center"> 
         <p>Where education is exciting and competence is key!</p>
@@ -36,7 +36,7 @@
       </div> 
 
       <div  class="row justify-content-sm-center">
-        <img width="150px" src="grfx/jointAccreditation.png" alt="Joint Accreditation" />
+        <img width="25%" height="25%" src="grfx/jointAccreditation.png" alt="Joint Accreditation" />
       </div>
   </div>
     
@@ -44,7 +44,7 @@
     
   <div class="container-fluid">
 	  <div class="row grey">
-      <div class="col-sm-12">
+      <div class="col-sm-12 bottomBorder">
         <h2>Online Education and Tools</h2>
       </div>
 
@@ -59,29 +59,6 @@
         </div>
       </div>
 
-        <!-- <div class="row text-left" style="display: flex; align-items: center; flex-wrap:wrap">
-          <div class="col-lg-4 col-sm-12">
-            
-          </div>    
-          <p class="lead col-lg-8 col-sm-12">In 2002, Apex Innovations was founded by Marianne Bourgeois, an emergency nurse who witnessed a false computer-generated 12-lead ECG interpretation for a patient who was really having an MI. She developed MI Rule Visions&reg;, a template to help others better understand 12-lead ECGs and subsequently, online continuing education.</p>
-          
-          <div class="row text-left" style="display: flex; align-items: center;flex-wrap:wrap">
-            <div class="col-lg-4 col-sm-12">
-              <img alt="Heart Rhythm" data-850="transform:translateX(-400px);opacity:0;" data-900="transform:translateX(0px);opacity:1;" class="genericGraphic" src="grfx/genericGraphic2.svg"/>
-            </div>
-            <p class="lead col-lg-8 col-sm-12">Located in the heart of Cajun country, Lafayette, Louisiana, Apex Innovations is housed amid lively festivals, spicy foods and people deeply rooted in their Southern charm and rich culture.  We are dedicated to educating the medical community and providing learning that is unique and fun to learn!</p>
-          </div>
-          
-          <div class="row text-center smPadTop">
-            <p class="lead">Apex Innovations provides the highest quality online continuing education to individuals, hospitals and health systems, universities, organizations, and corporations around the world. With a goal to empower our learners to deliver the best health care possible, Apex Innovations designs, manufactures, and provides education filled with amazing graphics, 3-D animations, and interactivity.</p>
-          </div>   
-        </div>
-      </div>
-    </div>
-    
-    <div class="row relative overflowXHidden">
-      <img alt="Background Effect" width="1020" height="1002" class="blueLine3 absolute" src="grfx/blueLine3.svg"/>
-    </div> -->
   </div>
 
   <!-- Partners -->
@@ -104,7 +81,7 @@
   <!-- Quantum -->
   <div class="container-fluid">
 	  <div class="row grey">
-      <div class="col-sm-12">
+      <div class="col-sm-12 bottomBorder">
         <h2>Validate Competency</h2>
       </div>
 

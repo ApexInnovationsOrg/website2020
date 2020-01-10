@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="Create an account or log into Apex Innovations. Learn stroke, heart failure, and EKG competency. Earn continuing education credits and become certified.">
     <meta name="keywords" content="Online,Continuing,Education,Nurse,CE,CEU,Physician,CME,Chest Pain,ECG,EKG,Stroke,Sepsis,Heart,Failure,ACS,Myocardial Infarction,Competency,MI Rule,NIHSS,Interactive,MI,Doctor,EMS">
-    <meta name="author" content="Apex Innovations, LLC. Eddie Muller, John Klein, Chase Champagne">
+    <meta name="author" content="Apex Innovations, LLC. Eddie Muller, John Klein, Chase Champagne, Liddy Rothermel">
     <meta name="theme-color" content="#B20000" />
 
     <title>Apex Innovations, LLC - Improving Outcomes Through Education</title>
@@ -31,11 +31,13 @@
 </head>
 
 <body id="skrollr-body" class="sunburst" onload="init()">
+    <div id="app">
     @include('layout.navigation')
 
         @yield('content')
         @include('layout.footer')
 
+    </div>
 	<script src="js/app.js"></script>
     </body>
 </html>

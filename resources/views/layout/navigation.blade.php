@@ -43,7 +43,7 @@
                         <li><a href="products.html#bundles" style="display:block;">Courseware Bundles</a></li>      
                     </ul>
                 </li>
-                <li class="opLink nav-item"">
+                <li class="opLink nav-item">
                     <a class="nav-link" href="/op.html">Competency Validation</a>
                 </li>
                 <li class="nav-item">
