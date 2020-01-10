@@ -23,7 +23,9 @@
       <div class="row text-center skyBlueBorderBottom">  
         <h2>Welcome to Apex Innovations</h2>
       </div>
-      
+      <div id="app">
+        <example-component></example-component>
+      </div>
       <div id="accreditation_logos_home">
         <img width="150px" src="grfx/jointAccreditation.png" alt="Joint Accreditation" />
       </div>
