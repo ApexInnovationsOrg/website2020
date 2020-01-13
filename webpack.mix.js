@@ -12,4 +12,5 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/_base.scss', 'public/css/app.css');
+   .sass('resources/sass/_base.scss', 'public/css/app.css')
+   .browserSync('local.apexinnovations.com');

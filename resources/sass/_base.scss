@@ -106,25 +106,7 @@ div {
 	display:block;
 	margin:0 auto;
 }
-.loginButtonContainer{
-	    margin: 50px auto 100px auto;
-	}
-.loginButton{
-	&:hover{
-		background-color:#777;
-		color:white;
-		font-weight:800;
-		border-color:#e6e6e6;
-		transform:scale(1.25);
-	}
-	cursor:pointer;
-	transition: all .25s ease-in-out;
-	font-size: 25px;
-    border: 3px solid #777;
-    display: inline-block;
-    padding: 30px 60px;
-	font-weight: bold;
-}
+
 .overflowXHidden{
 	overflow-x:hidden;
 }
@@ -347,6 +329,23 @@ a {
   text-shadow: none;
   margin-top: 30px;
 }
+.footer{
+	.row{
+		color: rgba(0, 0, 0, 0.5);
+		font-weight:800;
+		a{
+			color: rgba(0, 0, 0, 0.5);
+		}
+		// p{
+		// 	color: rgba(0, 0, 0, 0.5);
+		// }
+		
+	} 
+	.row .legalStuff{
+		font-size:0.7em;
+		
+	}
+}
 // /* Previous button  */
 // #quote-carousel .carousel-control.left
 // {
@@ -453,52 +452,52 @@ a {
 //     }
 // }
 
-.adminProfile {
-	li {
-		input {
-			margin-left: .5em;
-		}
-		padding-bottom:.75em;
-	}
-}
+// .adminProfile {
+// 	li {
+// 		input {
+// 			margin-left: .5em;
+// 		}
+// 		padding-bottom:.75em;
+// 	}
+// }
 
-.courseRow {
-	.courseName {
-		text-align: left;
-	}
-}
+// .courseRow {
+// 	.courseName {
+// 		text-align: left;
+// 	}
+// }
 
-.testimonialPanel {
-	.testimonialText {
-		color:#000;
-	}
-}
-.ui-datepicker-trigger{
-	cursor:pointer;
-}
+// .testimonialPanel {
+// 	.testimonialText { 
+// 		color:#000;
+// 	}
+// }
+// .ui-datepicker-trigger{
+// 	cursor:pointer;
+// }
 
-.subNavContent{
-	&.subNavReport{
-		margin-left:-30px;
-		padding-left:0px;
-		fieldset{
-			select{
-				width:100%;
-			}
-		}
-	}
-}
-#accreditation_logos_home {
-	position: absolute;
-	width: 100px;
-	text-align: center;
-	padding-top: 3em;
-	z-index: 1000;
-}
+// .subNavContent{
+// 	&.subNavReport{
+// 		margin-left:-30px;
+// 		padding-left:0px;
+// 		fieldset{
+// 			select{
+// 				width:100%;
+// 			}
+// 		}
+// 	}
+// }
+// #accreditation_logos_home {
+// 	position: absolute;
+// 	width: 100px;
+// 	text-align: center;
+// 	padding-top: 3em;
+// 	z-index: 1000;
+// }
 
-#accreditation_logos_products {
-	text-align: center;
-	margin: 1em auto;
-}  
+// #accreditation_logos_products {
+// 	text-align: center;
+// 	margin: 1em auto;
+// }  
 
    

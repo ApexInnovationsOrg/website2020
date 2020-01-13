@@ -30,14 +30,14 @@
 
 </head>
 
-<body id="skrollr-body" class="sunburst" onload="init()">
-    <div id="app">
+<body>
     @include('layout.navigation')
-
-        @yield('content')
+    
+    <div id="app"></div>
+    @yield('content')
         @include('layout.footer')
 
-    </div>
+    
 	<script src="js/app.js"></script>
     </body>
 </html>
