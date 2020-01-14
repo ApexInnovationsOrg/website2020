@@ -45,6 +45,9 @@ body {
 //   }
 
 // }
+.container-fluid{
+	position:relative;
+}
 .row{
 	margin: 0 !important;
 	} 
@@ -346,7 +349,20 @@ a {
   text-shadow: none;
   margin-top: 30px;
 }
-
+.starBackground
+{
+		opacity: 0.25;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	img{
+		width:40%;
+		float:right;
+	}
+}
 .footer{
 	.row{
 		color: #969696;

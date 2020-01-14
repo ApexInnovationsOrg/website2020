@@ -18,7 +18,9 @@
   </div> -->
 
 <div class="container-fluid med-margin-top med-margin-bot mdPadBot">
-
+	<div class="starBackground">
+		<img src="/grfx/star-02.svg"/>
+	</div>
 	<div class="row justify-content-sm-center redBottom">
 		<h3 class="redBot smPadBot">
 			Welcome to Apex Innovations

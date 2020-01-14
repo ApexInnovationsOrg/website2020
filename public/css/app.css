@@ -14933,6 +14933,14 @@ body {
 
 /* Portrait and Landscape */
 
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  position: relative;
+}
+
 .row {
   margin: 0 !important;
 }
@@ -15265,6 +15273,21 @@ body.modal-open {
   font-size: 2.3em;
   text-shadow: none;
   margin-top: 30px;
+}
+
+.starBackground {
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.starBackground img {
+  width: 40%;
+  float: right;
 }
 
 .footer .row {
