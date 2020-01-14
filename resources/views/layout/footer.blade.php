@@ -36,32 +36,32 @@
 
   <!-- Navigation Links -->
   <div class="row bigPadBot medPadTop">
-    <div class="col-sm-3">
-       <div class="row medPadTop"><a href="#">Education</a></div>
-       <div class="row medPadTop"><a href="#">Tools</a></div>
-       <div class="row medPadTop"><a href="#">Quantum Competency</a></div>
+    <div class="col-sm">
+       <div class="row medPadTop"><a class="nav-link" href="#">Education</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Tools</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Quantum Competency</a></div>
     </div>
-    <div class="col-sm-3">
-       <div class="row medPadTop"><a href="#">About</a></div>
-       <div class="row medPadTop"><a href="#">Mission</a></div>
-       <div class="row medPadTop"><a href="#">News</a></div>
+    <div class="col-sm">
+       <div class="row medPadTop"><a class="nav-link" href="#">About</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Mission</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">News</a></div>
     </div>
-    <div class="col-sm-3">
-       <div class="row medPadTop"><a href="#">Team</a></div>
-       <div class="row medPadTop"><a href="#">Careers</a></div>
-       <div class="row medPadTop"><a href="#">Contact Us</a></div>
+    <div class="col-sm">
+       <div class="row medPadTop"><a class="nav-link" href="#">Team</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Careers</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Contact Us</a></div>
     </div>
-    <div class="col-sm-3">
-       <div class="row medPadTop"><a href="#">Login</a></div>
-       <div class="row medPadTop"><a href="#">Create Account</a></div>
+    <div class="col-sm">
+       <div class="row medPadTop"><a class="nav-link" href="#">Login</a></div>
+       <div class="row medPadTop"><a class="nav-link" href="#">Create Account</a></div>
     </div>
   </div>
 
   <!-- Rights and Social Media -->
   <div class="d-flex justify-content-center bd-highlight mb-3">
-    <div class="col-md-auto">
-        <img width="25" src="/grfx/facebook_sms.png" alt="facebook">
-        <img width="25" src="/grfx/twitter_sms.png" alt="twitter">
+    <div class="col-sm-auto">
+        <a href="https://www.facebook.com/Apex.online.continuing.education/"><img width="25" src="/grfx/facebook_sms.png" alt="facebook"></a>
+        <a href="https://twitter.com/ApexInnovations"><img width="25" src="/grfx/twitter_sms.png" alt="twitter"></a>
     </div>
   </div>
   <div class="row">

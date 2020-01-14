@@ -34,7 +34,9 @@
     @include('layout.navigation')
     
     <div id="app"></div>
+    <div class="container">
     @yield('content')
+    </div>
         @include('layout.footer')
 
     

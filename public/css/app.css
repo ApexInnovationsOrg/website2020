@@ -15059,6 +15059,17 @@ div {
   font-weight: 800;
 }
 
+.nav-link {
+  color: #969696 !important;
+  text-decoration: none;
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
 .contactUs {
   background-color: rgba(0, 0, 0, 0.69);
 }
@@ -15240,11 +15251,15 @@ body.modal-open {
 
 /* carousel */
 
-.carousel-item {
+#quote-carousel .carousel-inner .carousel-item {
   height: 200px;
 }
 
-#quote-carousel .carousel-control {
+#productCarouselContainer .carousel-item {
+  height: 750px;
+}
+
+.carousel-control {
   background: none;
   color: #222;
   font-size: 2.3em;
@@ -15253,12 +15268,8 @@ body.modal-open {
 }
 
 .footer .row {
-  color: rgba(0, 0, 0, 0.5);
+  color: #969696;
   font-weight: 800;
-}
-
-.footer .row a {
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .footer .row .legalStuff {
@@ -15269,7 +15280,7 @@ body.modal-open {
 
 /* Changes the color of the carousel indicators */
 
-#quote-carousel .carousel-indicators li {
+.carousel-indicators li {
   background-color: rgba(0, 0, 0, 0.6);
 }
 

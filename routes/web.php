@@ -11,8 +11,25 @@
 |
 */
 
+use App\StoreWebsiteProducts;
+
 Route::get('/', function () {
-    return view('welcome');
+    // $products = Products::where('Active','Y')
+    //                     ->whereNotNull('PathToLogo')
+    //                     ->where('UnitPrice','<>','0.00')
+    //                     ->get();      
+    $productsJSON = StoreWebsiteProducts::where('Active','Y')
+                                    ->where('DigitalProduct','Y')
+                                    ->where('ProductID','<>','100')
+                                    ->where('ProductID','<>','5000')
+                                    ->get();
+    $products = [];
+    foreach($productsJSON as $productJSON)
+    {
+        $products[] = json_decode($productJSON->WebsiteJSON);
+    }
+    // dd($products);
+    return view('welcome',['products'=>$products]);
 });
 
 
