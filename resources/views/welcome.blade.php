@@ -19,7 +19,7 @@
 
 <div class="container-fluid med-margin-top med-margin-bot mdPadBot">
 	<div class="starBackground">
-		<img src="/grfx/star-02.svg"/>
+		<img src="/grfx/star-02.svg" />
 	</div>
 	<div class="row justify-content-sm-center redBottom">
 		<h3 class="redBot smPadBot">
@@ -54,7 +54,7 @@
 				<!-- Carousel Slides / Quotes -->
 				<div class="carousel-inner text-center">
 					@foreach ($products as $product)
-					
+
 					<div @if ($loop->first) class="carousel-item active" @else class="carousel-item" @endif>
 						<div class="row grayBackground">
 
@@ -71,7 +71,7 @@
 								</div>
 								<div class="row">
 									<div class="col-md-12">
-										<h4>{{$product->name}}</h4>						
+										<h4>{{$product->name}}</h4>
 									</div>
 								</div>
 								<div class="row">
@@ -90,7 +90,8 @@
 				<!-- Bottom Carousel Indicators -->
 				<ol class="carousel-indicators">
 					@foreach ($products as $product)
-						<li data-target="#product-carousel" data-slide-to="{{$loop->index}}" @if ($loop->first) class="active" @endif></li>
+					<li data-target="#product-carousel" data-slide-to="{{$loop->index}}" @if ($loop->first)
+						class="active" @endif></li>
 					@endforeach
 				</ol>
 
@@ -128,97 +129,112 @@
 	</div>
 
 	<!-- Quantum -->
-	<div class="container-fluid">
-		<div class="row grey">
-			<div class="col-sm-12 bottomBorder">
-				<h2>Validate Competency</h2>
+
+<div class="container-fluid med-margin-top med-margin-bot mdPadBot">
+	<div class="row justify-content-center redBottom">
+		<h3 class="redBot smPadBot">
+			Validate Competency
+		</h3>
+	</div>
+	<div class="row d-block">
+		<div class="row">
+			<div class="col d-none d-sm-none d-md-none d-lg-flex justify-content-center align-items-center">
+				<div class="justify-content-center align-items-center">
+					<div class="d-flex flex-row">
+						<p>Measure student performance and validate competency with Quantum, the first and only
+							instructor-mediated,
+							performance assessment tool.</p>
+					</div>
+					<div class="d-flex flex-row">
+						<div class="col  text-center">
+							<button type="button" class="btn btn-danger">Learn More</button>
+						</div>
+					</div>
+				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-sm-6">
-					<p>Measure student performance and validate competency with Quantum, the first and only
-						instructor-mediated,
-						performance assessment tool.</p>
-				</div>
-
-				<div class="col-sm-6">
-					<img alt="Product Box" data-550="transform:translateX(-400px);opacity:0;"
-						data-600="transform:translateX(0px);opacity:1;" class="genericGraphic"
-						src="grfx/Quantum_ProductBox_L.png" />
-				</div>
+			<div class="col">
+				<img alt="Product Box" class="genericGraphic" src="grfx/Quantum_ProductBox_L.png" />
 			</div>
 		</div>
-		<!-- Customer Testimonials -->
-		<div id="carouselContainer" class="container">
-			<div class="row">
+		<div class="row d-lg-none d-flex align-items-center justify-content-center">
+				<button type="button" class="btn btn-danger">Learn More</button>
+		</div>
+	</div>
+</div>
 
-				<div class='col-sm-12'>
-					<div class="carousel slide" data-ride="carousel" id="quote-carousel">
 
-						<!-- Carousel Slides / Quotes -->
-						<div class="carousel-inner text-center">
 
-							<!-- Quote 1 -->
-							<div class="carousel-item active">
-								<div class="testimonialPanel">
-									<p>"So we have been a PSC since 2012. We have never given t-PA in less than 71
-										minutes, until last
-										week! We had a 59 minute time. I think all of the additional education is
-										really paying off!
-										Thanks for the help"</p>
-									<small class="testimonialText">Beth Wiese - RN Stroke Program
-										Coordinator</small>
-								</div>
-							</div>
+<!-- Customer Testimonials -->
+<div id="carouselContainer" class="container">
+	<div class="row">
 
-							<!-- Quote 2 -->
-							<div class="carousel-item">
-								<div class="testimonialPanel">
-									<p>"I think it's a great way to have an interactive view of anatomy... then they
-										understand neuro."
-									</p>
-									<small class="testimonialText">Debbie Summers - RN, MSN, ACNS-BC</small>
-								</div>
-							</div>
+		<div class='col-sm-12'>
+			<div class="carousel slide" data-ride="carousel" id="quote-carousel">
 
-							<!-- Quote 3 -->
-							<div class="carousel-item">
-								<div class="testimonialPanel">
-									<p>"It's so easy to use! It's very clear how to manuever around. Just a click
-										and you can find out
-										information with what's happening in the anatomy."</p>
-									<small class="testimonialText">Rachel Malloy - CNRN</small>
-								</div>
-							</div>
+				<!-- Carousel Slides / Quotes -->
+				<div class="carousel-inner text-center">
 
-							<!-- Quote 4 -->
-							<div class="carousel-item">
-								<div class="testimonialPanel">
-									<p>"Each program actually addresses various learning styles for the participant.
-										So it uses audio,
-										visual, and even tactile learning styles so that each individual person can
-										gain the maximum
-										benefit out of using the program."</p>
-									<small class="testimonialText">Christie Artuso - Ed D, RN, CNRN</small>
-								</div>
-							</div>
-
+					<!-- Quote 1 -->
+					<div class="carousel-item active">
+						<div class="testimonialPanel">
+							<p>"So we have been a PSC since 2012. We have never given t-PA in less than 71
+								minutes, until last
+								week! We had a 59 minute time. I think all of the additional education is
+								really paying off!
+								Thanks for the help"</p>
+							<small class="testimonialText">Beth Wiese - RN Stroke Program
+								Coordinator</small>
 						</div>
+					</div>
 
-						<!-- Bottom Carousel Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#quote-carousel" data-slide-to="1"></li>
-							<li data-target="#quote-carousel" data-slide-to="2"></li>
-							<li data-target="#quote-carousel" data-slide-to="3"></li>
-						</ol>
+					<!-- Quote 2 -->
+					<div class="carousel-item">
+						<div class="testimonialPanel">
+							<p>"I think it's a great way to have an interactive view of anatomy... then they
+								understand neuro."
+							</p>
+							<small class="testimonialText">Debbie Summers - RN, MSN, ACNS-BC</small>
+						</div>
+					</div>
 
+					<!-- Quote 3 -->
+					<div class="carousel-item">
+						<div class="testimonialPanel">
+							<p>"It's so easy to use! It's very clear how to manuever around. Just a click
+								and you can find out
+								information with what's happening in the anatomy."</p>
+							<small class="testimonialText">Rachel Malloy - CNRN</small>
+						</div>
+					</div>
+
+					<!-- Quote 4 -->
+					<div class="carousel-item">
+						<div class="testimonialPanel">
+							<p>"Each program actually addresses various learning styles for the participant.
+								So it uses audio,
+								visual, and even tactile learning styles so that each individual person can
+								gain the maximum
+								benefit out of using the program."</p>
+							<small class="testimonialText">Christie Artuso - Ed D, RN, CNRN</small>
+						</div>
 					</div>
 
 				</div>
+
+				<!-- Bottom Carousel Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#quote-carousel" data-slide-to="1"></li>
+					<li data-target="#quote-carousel" data-slide-to="2"></li>
+					<li data-target="#quote-carousel" data-slide-to="3"></li>
+				</ol>
+
 			</div>
 
-			<?php
+		</div>
+	</div>
+
+	<?php
     //this turns the snow off after 3 days into the new year. If after 3 days (jan 3rd of the next year), the year is the same it will know that time is up into the new year.
     //tis the season.
     $month = date('m');
@@ -228,25 +244,25 @@
     }
     if ($xmas) {
       ?>
-			<script>
-				try{
+	<script>
+		try{
         Blizzard('skrollr-body');
       } catch(e)
       {
         //probably not the home page. Ignore. 
       }
-			</script>
-			<style>
-				.translucentWhiteBackground,
-				.falling-snow {
-					z-index: 999;
-				}
+	</script>
+	<style>
+		.translucentWhiteBackground,
+		.falling-snow {
+			z-index: 999;
+		}
 
-				.falling-snow {
-					pointer-events: none
-				}
-			</style>
-			<?php
+		.falling-snow {
+			pointer-events: none
+		}
+	</style>
+	<?php
     }
   ?>
-			@endsection
+	@endsection
