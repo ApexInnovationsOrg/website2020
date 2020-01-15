@@ -106,19 +106,19 @@
 	<div class="container-fluid">
 		<div class="row d-flex flex-wrap align-items-center">
 
-			<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-8 thumb">
 
 				<img class="img-responsive" src="grfx/BSWH_logo.jpg" style="width:100%" alt="Baylor Scott and White" />
 
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-8 thumb">
 
 				<img class="img-responsive" src="grfx/LifePoint_logo.jpg" style="width:100%" alt="LifePoint Health" />
 
 			</div>
 
-			<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+			<div class="col-lg-4 col-md-4 d-none d-sm-none d-md-none d-lg-block thumb">
 
 				<img class="img-responsive" src="grfx/NorthShore_logo.jpg" style="width:100%" alt="NorthShore" />
 
