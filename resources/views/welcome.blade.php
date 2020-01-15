@@ -118,7 +118,7 @@
 
 			</div>
 
-			<div class="col-lg-4 col-md-4 d-none d-sm-none d-md-none d-lg-block thumb">
+			<div class="col-lg-4 col-md-4 d-sm-none d-md-none d-lg-block thumb">
 
 				<img class="img-responsive" src="grfx/NorthShore_logo.jpg" style="width:100%" alt="NorthShore" />
 
